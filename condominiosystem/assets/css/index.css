@@ -1,0 +1,136 @@
+/* Cores padrão */
+body {
+    background-color: #b9bdba;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Parágrafos */
+p {
+    color: #93A096;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Botões */
+.btn_login, .btn_cadastro {
+    border-radius: 3px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.btn_login {
+    background-color: #93A096;
+}
+
+.btn_cadastro {
+    background-color: #437A42;
+    color: #FFF;
+}
+
+/* Ícone para mostrar/esconder senha */
+#togglePassword {
+    cursor: pointer;
+    color: #437A42;
+}
+
+#togglePassword:hover {
+    color: #93A096;
+}
+
+
+/* Container centralizado e responsivo */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #93A096;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+/* Título leve */
+h4.light {
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Card */
+.card {
+    background-color: #93A096;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título do card */
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #93A096;
+}
+
+/* Lista */
+.list-group-item {
+    border: none;
+    padding: 15px 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #f1f1f1;
+}
+
+/* Links dentro da lista */
+.list-group-item a {
+    color: #93A096;
+}
+
+.list-group-item a:hover {
+    text-decoration: underline;
+}
+
+/* Ícones */
+.bi {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.bi-buildings {
+    margin-right: 10px;
+    font-size: 3rem;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f1f1f1;
+    color: #555;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilo para fundo cinza claro */
+.grey.lighten-3 {
+    background-color: #f2f2f2; /* Cor de fundo cinza claro */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+/* Estilo para campo de entrada */
+.input-field input[type="text"] {
+    border: none; /* Remover borda padrão */
+    padding: 8px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
